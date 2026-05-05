@@ -1,0 +1,9 @@
+#pull basse image for python
+FROM python:3.8-slim
+# set the working directory in the container
+WORKDIR /app
+# copy the content of the local directory to the working directory in image
+
+COPY . /app
+# command to run the application
+CMD ["python", "app.py"]
