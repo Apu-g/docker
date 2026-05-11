@@ -39,3 +39,22 @@ docker rmi <image name>
 docker run -p <port no>:<port no> --name <container name> <image name>
 docker run -p 5000:5000 --name flask flask_image
 # this will help us to run the app in the docker with using the same port as the local machine and the docker port
+
+# To make a sql docker file you have to do this 
+
+#pull official mysql image
+FROM mysql:latest
+
+#set environment variables
+ENV MYSQL_ROOT_PASSWORD=rootpassword
+ENV MYSQL_DATABASE=mydatabase
+
+#copy the initialization script to the container
+COPY init.sql /docker-entrypoint-initdb.d/
+
+EXPOSE 3307
+
+# and then in innit.sql you have to write the sql code for the execution when the container is run
+
+# To run a mysql file in the docker container and execute it in the terminal run this command
+docker exec -it  mysql_container mysql -u root -p
