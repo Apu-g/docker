@@ -58,3 +58,9 @@ EXPOSE 3307
 
 # To run a mysql file in the docker container and execute it in the terminal run this command
 docker exec -it  mysql_container mysql -u root -p
+
+# see the available networks in docker 
+docker network ls
+
+# to create a network in docker 
+docker network create network_name
