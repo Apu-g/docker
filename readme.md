@@ -83,3 +83,15 @@ docker compose up -d --build
 
 
 # docker volumes - are like storing the data in docker and used in the containers and make sure the container is called with the container so that we can acces the data and if the volume is nor used then the data is not in the container and once due to this docker volumes are not in the image its in the container
+
+
+# to push a docker image to the docker hub
+first login 
+docker login
+
+then docker push the image name withtag
+docker push apu:9.3
+
+then u can run it in the docker with the docker command
+docker run --name hihi -dp 5000:5000 apughanti/custom_image:0.0.1
+
