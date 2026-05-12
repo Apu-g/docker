@@ -64,3 +64,22 @@ docker network ls
 
 # to create a network in docker 
 docker network create network_name
+
+# creation of a yml file for the docker compose  - it basically makes sure that we can make a network automatically and all the services are included in the docker compose file that checks the interval and makes sure each is running before the other can function
+
+
+# some commands
+# this helps to start the container nothing on creating it
+docker compose up -d
+
+# to make or build an image
+docker compose up -d 
+
+# to remove a container 
+docker compose down
+
+# to rebuild a container 
+docker compose up -d --build
+
+
+# docker volumes - are like storing the data in docker and used in the containers and make sure the container is called with the container so that we can acces the data and if the volume is nor used then the data is not in the container and once due to this docker volumes are not in the image its in the container
