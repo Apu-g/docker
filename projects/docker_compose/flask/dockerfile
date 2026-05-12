@@ -1,0 +1,14 @@
+#pull base image for python
+FROM python:3.9-slim
+#set working directory
+WORKDIR /flask
+#copy requirements file to the container
+COPY requirements.txt . 
+#install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+#copy the application code to the container
+COPY . .
+#expose the port the app runs on
+EXPOSE 5000
+#command to run the application
+CMD ["python", "app.py"]
