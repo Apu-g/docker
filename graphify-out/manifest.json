@@ -1,0 +1,50 @@
+{
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\1_app\\app.py": {
+    "mtime": 1777998813.7586832,
+    "hash": "877f23fe22a9db9ff8e87989fa15311a"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\docker_app\\flask\\app.py": {
+    "mtime": 1778478349.160575,
+    "hash": "9b6ca367eb31ddcb675e43764a030489"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\docker_app\\my_sql\\init.sql": {
+    "mtime": 1778475799.9714918,
+    "hash": "b1dc477fde50416b18c41e0a3eea544b"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\docker_compose\\flask\\app.py": {
+    "mtime": 1778585312.5438173,
+    "hash": "2c974bc644fbe44321644090713b744c"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\docker_compose\\my_sql\\init.sql": {
+    "mtime": 1778475799.9714918,
+    "hash": "b1dc477fde50416b18c41e0a3eea544b"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\flask_app\\app.py": {
+    "mtime": 1778004860.8440144,
+    "hash": "f46548d797b946b5cd4f111d62a81691"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\volume\\my_sql\\init.sql": {
+    "mtime": 1778475799.9714918,
+    "hash": "b1dc477fde50416b18c41e0a3eea544b"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\readme.md": {
+    "mtime": 1778590150.3946278,
+    "hash": "dbd386078bbf6c430e78663d1d4663b5"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\docker_app\\flask\\requirements.txt": {
+    "mtime": 1778478438.8440573,
+    "hash": "ab0bf21ed8f266a7c031f213c6df22c6"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\docker_compose\\Docker-compose.yml": {
+    "mtime": 1778570837.846279,
+    "hash": "12483b6606f91980e9ce9773a23ee151"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\docker_compose\\flask\\requirements.txt": {
+    "mtime": 1778478438.8440573,
+    "hash": "ab0bf21ed8f266a7c031f213c6df22c6"
+  },
+  "C:\\Users\\Apu Ghanti\\Desktop\\docker\\projects\\flask_app\\requirements.txt": {
+    "mtime": 1778003680.2908986,
+    "hash": "319c3206a7f10c17c3b9116d4a957646"
+  }
+}

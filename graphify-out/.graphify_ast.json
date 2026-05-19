@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "1_app_app_py",
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "1_app\\app.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "docker_app_flask_app_py",
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "docker_app\\flask\\app.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "flask_app_hello_world",
+      "label": "hello_world()",
+      "file_type": "code",
+      "source_file": "docker_app\\flask\\app.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "flask_app_insert_data",
+      "label": "insert_data()",
+      "file_type": "code",
+      "source_file": "docker_app\\flask\\app.py",
+      "source_location": "L11"
+    },
+    {
+      "id": "docker_compose_flask_app_py",
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "docker_compose\\flask\\app.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "flask_app_hello_world",
+      "label": "hello_world()",
+      "file_type": "code",
+      "source_file": "docker_compose\\flask\\app.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "flask_app_insert_data",
+      "label": "insert_data()",
+      "file_type": "code",
+      "source_file": "docker_compose\\flask\\app.py",
+      "source_location": "L9"
+    },
+    {
+      "id": "flask_app_app_py",
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "flask_app\\app.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "flask_app_app_hello_world",
+      "label": "hello_world()",
+      "file_type": "code",
+      "source_file": "flask_app\\app.py",
+      "source_location": "L4"
+    },
+    {
+      "id": "flask_app_app_name",
+      "label": "name()",
+      "file_type": "code",
+      "source_file": "flask_app\\app.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "flask_app_app_mail",
+      "label": "mail()",
+      "file_type": "code",
+      "source_file": "flask_app\\app.py",
+      "source_location": "L12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "docker_app_flask_app_py",
+      "target": "flask",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "docker_app\\flask\\app.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docker_app_flask_app_py",
+      "target": "pymysql",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "docker_app\\flask\\app.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "docker_app_flask_app_py",
+      "target": "flask_app_hello_world",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docker_app\\flask\\app.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "docker_app_flask_app_py",
+      "target": "flask_app_insert_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docker_app\\flask\\app.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "docker_compose_flask_app_py",
+      "target": "flask",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "docker_compose\\flask\\app.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docker_compose_flask_app_py",
+      "target": "pymysql",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "docker_compose\\flask\\app.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "docker_compose_flask_app_py",
+      "target": "flask_app_hello_world",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docker_compose\\flask\\app.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "docker_compose_flask_app_py",
+      "target": "flask_app_insert_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docker_compose\\flask\\app.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "flask_app_app_py",
+      "target": "flask",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "flask_app\\app.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "flask_app_app_py",
+      "target": "flask_app_app_hello_world",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "flask_app\\app.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "flask_app_app_py",
+      "target": "flask_app_app_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "flask_app\\app.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "flask_app_app_py",
+      "target": "flask_app_app_mail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "flask_app\\app.py",
+      "source_location": "L12",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

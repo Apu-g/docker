@@ -1,0 +1,14 @@
+C:\Users\Apu Ghanti\Desktop\docker\projects\1_app\app.py
+C:\Users\Apu Ghanti\Desktop\docker\projects\docker_app\flask\app.py
+C:\Users\Apu Ghanti\Desktop\docker\projects\docker_app\my_sql\init.sql
+C:\Users\Apu Ghanti\Desktop\docker\projects\docker_compose\flask\app.py
+C:\Users\Apu Ghanti\Desktop\docker\projects\docker_compose\my_sql\init.sql
+C:\Users\Apu Ghanti\Desktop\docker\projects\flask_app\app.py
+C:\Users\Apu Ghanti\Desktop\docker\projects\volume\my_sql\init.sql
+C:\Users\Apu Ghanti\Desktop\docker\readme.md
+C:\Users\Apu Ghanti\Desktop\docker\.agents\rules\graphify.md
+C:\Users\Apu Ghanti\Desktop\docker\.agents\workflows\graphify.md
+C:\Users\Apu Ghanti\Desktop\docker\projects\docker_app\flask\requirements.txt
+C:\Users\Apu Ghanti\Desktop\docker\projects\docker_compose\Docker-compose.yml
+C:\Users\Apu Ghanti\Desktop\docker\projects\docker_compose\flask\requirements.txt
+C:\Users\Apu Ghanti\Desktop\docker\projects\flask_app\requirements.txt
